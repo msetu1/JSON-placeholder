@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The cocktail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center my-4 text-success">Exploring The cocktail</h1>
+    </header>
+    <main class="container">
+        <section>
+            <h2>Cock Detail</h2>
+            <div id="cock-details" style="width: 25rem;">
+
+            </div>
+        </section>
+        <section class="text-center">
+            <input id="search-field" type="text" placeholder="search your cocktail">
+            <button onclick="searchCock()" class="btn btn-primary">Search</button>
+        </section>
+        <section>
+            <h2>My Favorite Drinks</h2>
+            <div id="drink-container" class="row row-cols-1 row-cols-md-3 g-4 ">
+
+            </div>
+        </section>
+    </main>
+    <script src="js/cocktail.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
